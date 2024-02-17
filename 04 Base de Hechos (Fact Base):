@@ -1,0 +1,5 @@
+base_de_hechos = {
+    "temperatura": "alta",
+    "tos": "sí",
+    "dolor_garganta": "sí"
+}
