@@ -1,0 +1,5 @@
+def explicación(enfermedad):
+    print("El diagnóstico es:", enfermedad)
+    print("El diagnóstico se basa en los siguientes síntomas:")
+    for síntoma, valor in base_de_hechos.items():
+        print(síntoma + ":", valor)
