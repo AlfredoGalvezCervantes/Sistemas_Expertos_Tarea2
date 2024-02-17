@@ -1,0 +1,13 @@
+knowledge_base = {
+    "síntoma": {
+        "fiebre": "farngitis",
+        "tos": "resfriado",
+        "dolor_garganta": "farngitis",
+        "dolor_cabeza": "migraña"
+    },
+    "enfermedad": {
+        "farngitis": ["fiebre", "dolor_garganta"],
+        "resfriado": ["tos"],
+        "migraña": ["dolor_cabeza"]
+    }
+}
