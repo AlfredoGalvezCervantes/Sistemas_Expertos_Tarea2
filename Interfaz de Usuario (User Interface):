@@ -1,0 +1,5 @@
+def interfaz_usuario():
+    print("Bienvenido al Sistema Experto")
+    síntomas = input("Ingrese los síntomas separados por comas: ").split(",")
+    enfermedades = inferencia(síntomas)
+    print("Las posibles enfermedades son:", enfermedades)
