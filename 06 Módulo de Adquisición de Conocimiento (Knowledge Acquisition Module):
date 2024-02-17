@@ -1,0 +1,2 @@
+def adquirir_conocimiento_nuevo(nuevo_conocimiento):
+    knowledge_base.update(nuevo_conocimiento)
