@@ -1,0 +1,7 @@
+def inferencia(síntomas):
+    enfermedades_posibles = []
+    for síntoma in síntomas:
+        if síntoma in knowledge_base["síntoma"]:
+            enfermedad = knowledge_base["síntoma"][síntoma]
+            enfermedades_posibles.append(enfermedad)
+    return enfermedades_posibles
